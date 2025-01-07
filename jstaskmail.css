@@ -1,0 +1,137 @@
+h1{
+    color: #4c2982;
+    line-height:20px;
+    font-weight: 1000;
+    font-size: 2rem;
+}
+
+.box{
+    height: 300px;
+    width: 330px;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    
+}
+
+
+input[type="email"]{
+
+    height: 35px;
+    width: 250px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 10px 20px, rgba(0, 0, 0, 0.13) 0px 6px 6px;
+    border: none;
+    outline: none;
+
+}
+
+#input{
+    display: flex;
+    align-items: center;
+}
+
+#input img{
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 30px;
+}
+
+.mailbox{
+   color: #4c2982;
+   font-size: .9rem;
+   font-weight: 600;
+}
+
+
+button{
+
+    height:37px;
+    width: 40px;
+    background-color:  rgb(244, 245, 189);
+    border: none;
+}
+
+
+.page{
+
+    height: 600px;
+    width: 1200px;
+    background-color: rgb(244, 247, 252);
+    border: 1px solid ;
+
+}
+ 
+.alert{
+    display: flex;
+    flex-direction: column;
+} 
+
+.cont1{
+    display: flex;
+    align-items: center;
+}
+
+.cont1 img{
+    height: 13px;
+    width: 13px;
+    padding-right: 10px;
+}
+
+#lable1{
+    border: 1px solid rgb(51, 185, 51);
+    color: green;
+    height: 80px;
+    width: 170px;
+    margin-top: 10px;
+    background-color:rgb(229, 253, 229) ;
+    display: none;
+    padding-left: 5px;
+} 
+
+#lable1 h1{
+    color: green;
+    font-size: 1rem ;
+}
+
+#lable1 p{
+    font-size: .8rem;
+    padding-left: 20px;
+    margin-top: 1px;
+}
+
+
+
+#lable2{        
+    display: none;
+    border: 1px solid red;
+    color: crimson;
+    height: 60px;
+    width: 200px;
+    margin-top: 20px;
+    line-height: 1px;
+    background-color: rgb(252, 231, 235);
+} 
+
+#lable2 h1{
+    color:crimson;
+    font-size: 1rem ;
+}
+
+#lable2 p{
+    font-size: .8rem;
+    padding-left: 30px;
+    margin-top: 1px;
+}
+
+
+.cont2{
+    display: flex;
+    align-items: center;
+}
+
+.cont2 img{
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+}
